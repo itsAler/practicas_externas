@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Todo el código html debe ir entre etiquetas <html> -->
+<head>
+    <!--No se ve el head en la web, son metadatos-->
+    <!--javascript extenernos/internos, iconos, hojas de estilo, título...-->
+    <meta charset="iso-8559-1"/>
+    <!--Ayuda al navegador web a categorizar la página-->
+    <meta name="description" content="Ejemplo html5"/>
+    <meta name="keywords" content="html5, css3, javascript"/>
+    <title>Formulario de impresión</title>
+    <!--Indicar archivos externos a añadir, relativo a y con su path-->
+    <link rel="stylesheet" href="misestilos.css"/>
+</head>
+
+<body>
+    <header id="cabeceraweb">
+        <!-- etq h1 para dar estilo a los títulos, h1,h2,...,h6 -->
+        <h1>Formulario de conteo de copias imprimidas</h1>
+    </header>
+    <nav>
+        <ol> <!--unordered list, numerada con ol (order list)-->
+            <li>Quiénes somos</li>
+            <li>Secciones</li>
+            <li>Nuestros productos</li>
+            <li>Soporte</li>
+        </ol>
+    </nav>
+
+    <aside id="barralateral">
+        <blockquote>Primer elemento</blockquote>
+        <blockquote>Seg elemento</blockquote>
+        <blockquote>Terce elemento</blockquote>
+    </aside>
+    <!--Contenido principal-->
+    <section>
+
+        <article>
+
+            <header>
+                <hgroup>
+                    <h2>Título de la primera noticia</h2>
+                    <h3>Subtítulo</h3>                    
+                </hgroup>
+            </header>
+            <figure>
+                <img src="Sin título.jpg"/>
+                <figcaption>
+                    <mark>
+                        <em> <!--Cursiva-->
+                            Soy cool
+                        </em>
+                        <strong> <!--Negrita-->
+                            De verdad
+                        </strong>
+                    </mark>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="inside-out-joy.gif"/>
+            </figure>
+            <p>Noticia 1</p>
+            <p>Seguimos hablando de noticia 1</p>
+            <p>Terminamos de hablar de la noticia 1</p>
+        </article>
+        
+        <article>
+            <p>Noticia 2</p>
+            <p>Terminamos n1</p>
+        </article>
+       
+        <article>
+            <p>Noticia 3</p>
+            <p>Terminamos noticia 3</p>
+            <time datetime="2023/01/12">Noticia publicada el 12/01/2023</time>
+        </article>
+
+        <A href="segundapag.html">Segunda página aquí.</A>
+        
+    </section>
+
+    <footer id="pie">
+        Derechos reservados, SOLITIUM NOVAC S.L 
+        <address>
+            C/ Las parras
+        </address>
+    </footer>
+    
+</body>
+</html>

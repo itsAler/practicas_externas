@@ -1,0 +1,50 @@
+/*
+    selector de etiqueta, modificar apariencia de la misma
+    siempre en pares propiedad:valor
+
+body{
+    background-color: aqua;
+}
+*/
+/* Todos los header con la misma propiedad, no diferenciamos
+header{background-color: antiquewhite;}
+*/
+
+/*
+    Selector de etiqueta, de id y de clase
+
+    La siguiente es id, que debemos agregar como atributo a la etiq
+    correspondiente en el .html
+*/
+
+#cabeceraweb{
+    background-color: blueviolet;
+}
+nav{
+    background-color: brown;
+    margin-top: 100px;
+}
+#barralateral{
+    background-color: rgb(223, 14, 21);
+    float: left;
+    height: 1020px;
+}
+
+li{
+    background-color: yellowgreen;
+    display: inline;
+}
+
+section{
+    background-color: aquamarine;
+    margin-left: 200px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#pie{
+    clear: both;
+    background-color: tomato;
+    margin-top: 15px;
+    padding-left: 25px;
+}
